@@ -65,10 +65,10 @@ const toStringEntry = (dec) => {
   return data.join("\n");
 };
 
-const SMARTHealthCard = {
+const SMARTHealthCards = {
   decode,
   verify, // async
   toStringEntry, // ja
 };
 
-export { SMARTHealthCard };
+export { SMARTHealthCards };
