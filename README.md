@@ -1,6 +1,7 @@
 # SMARTHealthCards-es
 
-SMART Health Card decoder in JavaScript (ES Module) / 新型コロナワクチン接種証明書をデコード・検証します
+[SMART Health Cards](https://smarthealth.cards/) decoder in JavaScript (ES Module) / 新型コロナワクチン接種証明書をデコード・検証します
+
 ## how to use
 
 ```js
