@@ -1,9 +1,8 @@
 # SMARTHealthCards-es
 
-[SMART Health Cards](https://smarthealth.cards/) decoder in JavaScript (ES Module) that decodes and verifies COVID-19 vaccination certificates.
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-## Demo
-- [High-speed Vaccine Certificate Checker - SMARTHealthCards decoder](https://code4fukui.github.io/vcchecker/)
+[SMART Health Cards](https://smarthealth.cards/) decoder in JavaScript (ES Module) that decodes and verifies COVID-19 vaccination certificates.
 
 ## Features
 - Decode SMART Health Cards data from QR codes
