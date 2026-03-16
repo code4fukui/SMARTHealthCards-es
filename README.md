@@ -31,4 +31,4 @@ console.log(data);
 ```
 
 ## License
-MIT
+MIT License — see [LICENSE](LICENSE).

@@ -1,11 +1,6 @@
 # SMARTHealthCards-es
 
-[SMART Health Cards](https://smarthealth.cards/) デコーダー（JavaScript ES Module）
-
-新型コロナワクチン接種証明書を復号化・検証するツールです。
-
-## デモ
-- [高速ワクチン接種証明書チェッカー - SMARTHealthCards decoder](https://code4fukui.github.io/vcchecker/)
+[SMART Health Cards](https://smarthealth.cards/)のデコーダー（JavaScript ES Module）です。新型コロナワクチン接種証明書を復号化・検証するツールです。
 
 ## 機能
 - SMART Health Cardsの復号化
