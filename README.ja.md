@@ -1,17 +1,15 @@
 # SMARTHealthCards-es
 
-> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+新型コロナウイルスワクチン接種証明書をデコードおよび検証する、JavaScript (ES Module) 製の [SMART Health Cards](https://smarthealth.cards/) デコーダーです。
 
-[SMART Health Cards](https://smarthealth.cards/) decoder in JavaScript (ES Module) that decodes and verifies COVID-19 vaccination certificates.
+## 機能
+- QRコードからSMART Health Cardsのデータをデコード
+- 公開鍵を使用してデジタル署名を検証
 
-## Features
-- Decode SMART Health Cards data from QR codes
-- Verify the digital signature using the public key
+## 要件
+なし。スタンドアロンのライブラリです。
 
-## Requirements
-None, this is a standalone library.
-
-## Usage
+## 使い方
 ```js
 import { SMARTHealthCards } from "https://code4fukui.github.io/SMARTHealthCards-es/SMARTHealthCards.js";
 
@@ -30,5 +28,5 @@ const data = await SMARTHealthCards.toStringEntry(dec);
 console.log(data);
 ```
 
-## License
-MIT License — see [LICENSE](LICENSE).
+## ライセンス
+MIT License — 詳細は [LICENSE](LICENSE) を参照してください。
